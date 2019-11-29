@@ -13,7 +13,7 @@ import (
 */
 
 func main() {
-  // ***スキーマ***
+	// ***スキーマ***
 	fields := graphql.Fields{
 		"hello": &graphql.Field{
 			Type: graphql.String,
